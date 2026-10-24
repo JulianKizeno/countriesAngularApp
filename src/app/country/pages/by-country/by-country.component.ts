@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { CountryService } from '../../services/country.service';
 
 @Component({
+  standalone: false,
   selector: 'app-by-country',
   templateUrl: './by-country.component.html',
   styles: [
